@@ -17,9 +17,10 @@ Data is not included in this repository. The M5 competition dataset can be downl
 ## Methodology
 - 3 representative time series selected:
   - Stable demand
-  - Zero demand
+  - Sporadic demand
   - Seasonal demand
-- Train-test split: last 28 days used as test set
+- Training data: `sales_train_validation` (d_1 to d_1913)
+- Testing data: `sales_train_evaluation` (d_1914 to d_1941), the last 28 days
 
 ## Metrics
 - MAE
