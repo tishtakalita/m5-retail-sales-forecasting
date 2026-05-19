@@ -7,11 +7,12 @@ This project implements baseline forecasting models using selected time series f
 Baseline models:
 - Naive Forecast
 - Seasonal Naive Forecast
-- Simple Moving Average 
-- Recursive Moving Average 
+- Moving Average (Simple and Recursive)
+- ETS (Error, Trend, Seasonal)
+- ARIMA
 
 ## Data
-Data is not included due to competition restrictions. 
+Data is not included in this repository. The M5 competition dataset can be downloaded from [Kaggle](https://www.kaggle.com/competitions/m5-forecasting-accuracy/data).
 
 ## Methodology
 - 3 representative time series selected:
@@ -25,4 +26,4 @@ Data is not included due to competition restrictions.
 - RMSE
 
 ## Status
-Baseline modeling completed. Next steps include ETS, ARIMA and ML-based forecasting.
+Baseline modeling completed. Next steps include ML-based forecasting.
