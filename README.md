@@ -1,7 +1,7 @@
 # M5 Retail Sales Forecasting
 
 ## Overview
-This project implements baseline forecasting models using selected time series from the M5 dataset.
+This project implements forecasting models on the M5 Walmart dataset, progressing from baseline statistical models to ML-based forecasting.
 
 ## Models Implemented
 Baseline models:
@@ -11,20 +11,28 @@ Baseline models:
 - ETS (Error, Trend, Seasonal)
 - ARIMA
 
+ML models (in progress):
+- LightGBM
+
 ## Data
 Data is not included in this repository. The M5 competition dataset can be downloaded from [Kaggle](https://www.kaggle.com/competitions/m5-forecasting-accuracy/data).
 
 ## Methodology
-- 3 representative time series selected:
+- Training data: `sales_train_validation` (d_1 to d_1913)
+- Testing data: `sales_train_evaluation` (d_1914 to d_1941), the last 28 days
+- Baseline: 3 representative time series selected:
   - Stable demand
   - Sporadic demand
   - Seasonal demand
-- Training data: `sales_train_validation` (d_1 to d_1913)
-- Testing data: `sales_train_evaluation` (d_1914 to d_1941), the last 28 days
+- ML piepline: full 30,490 item-store combinations with feature engineering
+
+## Notebooks
+- `01_baseline_models.ipynb` — statistical baseline models
+- `02_data_preprocessing.ipynb` — data cleaning, merging, encoding
 
 ## Metrics
 - MAE
 - RMSE
 
 ## Status
-Baseline modeling completed. Next steps include ML-based forecasting.
+Baseline modeling completed. Data preprocessing pipeline completed. Feature engineering in progress.
