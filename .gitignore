@@ -1,6 +1,6 @@
 *.csv
 *.zip
+*.parquet
 .ipynb_checkpoints/
 __pycache__/
 drive/
-*.parquet

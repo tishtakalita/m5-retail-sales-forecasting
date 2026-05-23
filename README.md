@@ -29,10 +29,12 @@ Data is not included in this repository. The M5 competition dataset can be downl
 ## Notebooks
 - `01_baseline_models.ipynb` — statistical baseline models
 - `02_data_preprocessing.ipynb` — data cleaning, merging, encoding
+- `03_feature_engineering.ipynb` — lag, rolling window and price features
+- `04_data_splitting.ipynb` — train/test split and NaN handling
 
 ## Metrics
 - MAE
 - RMSE
 
 ## Status
-Baseline modeling completed. Data preprocessing pipeline completed. Feature engineering in progress.
+Baseline modeling completed. Full preprocessing and feature engineering pipeline completed. LightGBM training in progress.
