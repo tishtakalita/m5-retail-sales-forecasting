@@ -7,7 +7,7 @@ This project implements forecasting models on the M5 Walmart dataset, progressin
 Baseline models:
 - Naive Forecast
 - Seasonal Naive Forecast
-- Moving Average (Simple and Recursive)
+- Simple Moving Average
 - ETS (Error, Trend, Seasonal)
 - ARIMA
 
